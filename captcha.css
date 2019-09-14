@@ -1,0 +1,89 @@
+.capbox{
+    display: inline-block;
+    padding: 12px 50px;
+    border: 3px solid #0067CB;
+    background-color: #fff;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+}
+.capbox-inner{
+    font: bold 11px arial, sans-serif;
+    color: #ffffff;
+    background-color: #0067CB;
+    background-image: url('line-1.png');
+    margin: 5px auto 0px auto;
+    padding: 3px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+#CaptchaDiv{
+    font: bold 17px verdana, arial, sans-serif;
+    font-style: italic;
+    color: #101010;
+    background-color: #FFFFFF;
+    background-image: url('line-1.png');
+    padding: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #0067CB;
+    letter-spacing: 5px;
+}
+#CaptchaInput{
+    margin: 8px 0px 1px 0px;
+    width: 135px;
+    border-color: #ffffff;
+    border: 0px;
+    padding: 3px 0;
+    color: #222;
+}
+#captcha-copy-false{
+    position: absolute;
+    height: 21px;
+    width: 226px;
+    opacity: 0.5;
+    font: bold 17px verdana, arial, sans-serif;
+    font-style: italic;
+    color: #101010;
+    background-color: #FFFFFF;
+    background-image: url('line-1.png');
+    padding: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #0067CB;
+    letter-spacing: 5px;
+}
+.reload{
+    width: 24px;
+    cursor: pointer;
+}
+.alert{
+    display: none;
+    color: red;
+}
+.btn{
+    /*display: none;*/
+    color: #ffffff;
+    background-color: #0067CB;
+    background-image: url('line-1.png');
+    margin: 5px auto 0px auto;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 78px;
+}
+.canvas{
+    display: inline-block;
+    width: 80%;
+}
+.reload-sectoion{
+    display: inline-block;
+    width: 18%;
+}

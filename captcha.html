@@ -1,0 +1,29 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="captcha.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="captcha.js"></script>
+    </head>
+    <body>
+        <div class="recaptcha-section" style="width:300px; margin: 0 auto;">
+            <div class="capbox">
+                <div class="cap-box">
+                    <div class="canvas">
+                        <div id="captcha-copy-false"></div>
+                        <div id="CaptchaDiv"></div>
+                    </div>
+                    <div class="reload-sectoion">
+                        <img class="reload" src="reload-arrow.png" />
+                    </div>
+                </div>
+                <div class="capbox-inner">
+                    Type the above number:<br>
+                    <input type="text" name="CaptchaInput" id="CaptchaInput" size="15" maxlength="6">
+                </div>
+                <div class="alert"></div>
+                <button class="btn">Enter</button>
+            </div>
+        </div>
+    </body>
+</html>
